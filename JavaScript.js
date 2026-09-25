@@ -71,21 +71,7 @@ function Iniciar_narracion(){
 Graficos = 1 //Este es el medidor de graficos
 
 //En esta funcion cambio de fondo al presionar el CHEKBOX, para graurar los graficos dentro del juego
-function Graficos_fondo(){
-Contenedor_RQ = document.getElementById("Contenedor_RC")
-if(Graficos == 1){
-document.getElementById("Recursos").style.marginLeft = "60%"
-document.getElementById("Fondo").style.background = "url(IMG/Fondo_Espacio2.jpg)"
-document.getElementById("Fondo").style.backgroundAttachment = "fixed"
-document.getElementById("Fondo").style.backgroundRepeat = "no-repeat"
-document.getElementById("Fondo").style.backgroundSize = "100% 120%"
-Graficos = 2}
-else{
-document.getElementById("Recursos").style.marginLeft = "0%"
-document.getElementById("Fondo").style.backgroundImage = "url(IMG/Fondo_Espacio.gif) "
-Graficos = 1
-}
-}
+
 
 
 
